@@ -1,0 +1,7 @@
+name: BetterNetheriteUpgrading
+version: 1.0
+main: link.star_dust.BetterNetheriteUpgrading.Main
+api-version: 1.20
+description: A plugin to adjust Netherite upgrading cost based on item type.
+commands: {}
+permissions: {}
