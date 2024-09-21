@@ -76,7 +76,7 @@ public class ForgeListener implements Listener {
                 // Only consume the amount of ingots specified in the config and 1 template
                 int takeIngots = requiredIngots - 1;
                 additionItem.setAmount(additionItem.getAmount() - takeIngots);
-                templateItem.setAmount(templateItem.getAmount() - 1); // Corrected to consume 1 template
+                templateItem.setAmount(templateItem.getAmount() - 0); // Corrected to consume 1 template
             }
         }
     }
