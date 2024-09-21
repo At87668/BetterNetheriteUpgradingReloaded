@@ -1,4 +1,4 @@
-# Sword Blocking
+# Better Netherite Upgrading Reloaded
 
 A Spigot plugin to adjust Netherite upgrading cost based on item type.
 Support for Minecraft 1.20+
