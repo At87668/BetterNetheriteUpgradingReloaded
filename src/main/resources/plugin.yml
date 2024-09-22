@@ -1,7 +1,15 @@
-name: BetterNetheriteUpgrading
-version: 1.1
+name: BetterNetheriteUpgradingReloaded
+version: 1.2
 main: link.star_dust.BetterNetheriteUpgrading.Main
 api-version: 1.20
 description: A plugin to adjust Netherite upgrading cost based on item type.
-commands: {}
-permissions: {}
+commands:
+  betternetheriteupgrading:
+    description: Reloads the BetterNetheriteUpgrading plugin configuration
+    aliases: [bnur, bnu]
+    usage: Reloads the BetterNetheriteUpgradingReloaded configuration "/<command> reload"
+    permission: betternetheriteupgrading.reload
+permissions:
+  betternetheriteupgrading.reload:
+    description: Allows the player to reload the plugin configuration
+    default: op
