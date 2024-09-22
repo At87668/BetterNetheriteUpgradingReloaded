@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'link.star_dust'
-version '1.0'
+version '1.2'
 
 sourceCompatibility = 1.8
 
@@ -33,6 +33,7 @@ jar {
             'Implementation-Version': project.version
         )
     }
+	exclude 'META-INF/', 'LICENSE.txt', 'LICENSE', 'org/', 'com/', 'net/', 'mojang-translations/', 'javax/'
 
     from {
         configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
